@@ -87,7 +87,8 @@ footer {
 */
 
 /* Write your CSS here */
-main > p:first-child:first-letter {
+
+main > p:first-child::first-letter {
   background-color: #666;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
@@ -104,7 +105,7 @@ figure {
   float: right;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  margin: .5rem -9rem 3rem 1rem;
+  margin: .5rem -9rem 1rem 1rem;
   width: 300px;
 }
 
